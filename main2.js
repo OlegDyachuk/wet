@@ -109,24 +109,24 @@ function viewer(){
     let bodyEl = document.querySelector('body');
     if(obj.current.condition.text.indexOf('хмарність') !== -1){  
         if(localtime > 21 || localtime < 6){
-            bodyEl.style.background = "center / cover no-repeat url('img/pexels-alex-conchillos-4203094.jpg')";
+            bodyEl.style.background = "center / cover no-repeat url('pexels-alex-conchillos-4203094.jpg')";
         }
         else{
-            bodyEl.style.background = "center / cover no-repeat url('img/cloudy.jpg')";
+            bodyEl.style.background = "center / cover no-repeat url('cloudy.jpg')";
         }
     }
     else if(obj.current.condition.text.indexOf('дощ') !== -1){
-        bodyEl.style.background = "center / cover no-repeat url('img/rain.jpg')";
+        bodyEl.style.background = "center / cover no-repeat url('rain.jpg')";
     }
     else if(obj.current.condition.text.indexOf('Сонячно') !== -1 || obj.current.condition.text.indexOf('сонячно') !== -1){
-        bodyEl.style.background = "center / cover no-repeat url('img/sunny.jpg')";     
+        bodyEl.style.background = "center / cover no-repeat url('sunny.jpg')";     
     }
     else if(obj.current.condition.text.indexOf('Ясно') !== -1 || obj.current.condition.text.indexOf('ясно') !== -1){
         if(localtime > 21 || localtime < 6){
-            bodyEl.style.background = "center / cover no-repeat url('img/pexels-dids-4996846.jpg')"; 
+            bodyEl.style.background = "center / cover no-repeat url('pexels-dids-4996846.jpg')"; 
         }
         else{
-            bodyEl.style.background = "center / cover no-repeat url('img/pexels-marilee-macilroy-1590915.jpg')";     
+            bodyEl.style.background = "center / cover no-repeat url('pexels-marilee-macilroy-1590915.jpg')";     
         }
         
     }
