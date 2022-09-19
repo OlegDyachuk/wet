@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Meteo Viewer</title>
+</head>
+<body>    
+    <div class="container">
+        <!-- <form> -->
+            <input type="text" class="inputText">
+            <input type="image" class="inputSubmit" name="submit" src="img/icons8-search.svg">
+        <!-- </form> -->
+        <div class="firstHalf">
+            <p class="temp"></p>           
+            <div class="wrapper">
+                <h3 class="city"></h3>
+                <p class="time"></p>
+            </div>
+            <div class="block"></div>
+        </div>
+        
+        <div class="secondHalf">
+            <hr>
+            <p class="tempFells"></p>
+            <p class="weather"></p>
+            <p class="clouds"></p>
+            <p class="wind"></p> 
+            <hr>   
+            <div class="buttonWrapper">
+                <h3>Прогноз на</h3>
+                <button class="btn tomorrow">Завтра</button>
+                <button class="btn days3">3 дні</button>
+                <button class="btn days5">5 днів</button>
+                <button class="btn days10">10 днів</button>
+            </div>            
+        </div>        
+    </div>
+    <div class="container2"></div>
+    <script src="js/main2.js"></script>
+</body>
+</html>
